@@ -1,0 +1,157 @@
+{
+  "main": {
+    "id": "a648086660d6f2de",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad535f613834303b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebdb16047085535b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Package Manage System( APT , Aptitude, RPM, YUM ).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4582a70e38481773",
+    "type": "split",
+    "children": [
+      {
+        "id": "e5ad6d67bba65ecd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1bd4be0e523a311e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "790e032695bf4260",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f9cc1421c88dfdd1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "080b02042a95acb3",
+    "type": "split",
+    "children": [
+      {
+        "id": "51c8e210e45d4f9d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2aae43aad1481f8d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Package Manage System( APT , Aptitude, RPM, YUM ).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1c3eccf8072d6098",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Package Manage System( APT , Aptitude, RPM, YUM ).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "24c09525c96b4a92",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a12f003604fb9413",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Package Manage System( APT , Aptitude, RPM, YUM ).md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "ebdb16047085535b",
+  "lastOpenFiles": [
+    "SELinux & AppArmor.md",
+    "LVM.md",
+    "무제 파일.canvas",
+    "Package Manage System( APT , Aptitude, RPM, YUM ).md",
+    "Linux  OS.md"
+  ]
+}
