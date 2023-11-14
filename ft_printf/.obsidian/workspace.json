@@ -1,0 +1,168 @@
+{
+  "main": {
+    "id": "c88c8dd122229f34",
+    "type": "split",
+    "children": [
+      {
+        "id": "55ffefa8d93167ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "60fca33cc77a150f",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "obsidian/logic.canvas",
+                "viewState": {
+                  "x": -597.5,
+                  "y": 113.37143554687512,
+                  "zoom": 0
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5a4a7aa433475939",
+    "type": "split",
+    "children": [
+      {
+        "id": "f47b0cec0b10cc0e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "80f39178ecdc33a1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "465231fea5b72901",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#else",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "19eade871ff26df8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ea0bd002fe635db9",
+    "type": "split",
+    "children": [
+      {
+        "id": "1c2bca674d6c32bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "557fb82ef1a63b68",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "obsidian/logic.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7543994418dea959",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "obsidian/logic.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f047e9162b71c520",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ee0b0267229cd290",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "obsidian/logic.canvas"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "80f39178ecdc33a1",
+  "lastOpenFiles": [
+    "a.out.ld_v0iazc",
+    "a.out.ld_CPH8iR",
+    "a.out.ld_KPpd5S",
+    "a.out.ld_sJlqhG",
+    "a.out.ld_Y1dflm",
+    "a.out.ld_1usCEE",
+    "a.out.ld_1Suueg",
+    "a.out.ld_K45EQj",
+    "a.out.ld_lqypFW",
+    "a.out.ld_6pBAX8",
+    "a.out.ld_nSEjYM",
+    "obsidian/README.md",
+    "obsidian/logic.canvas"
+  ]
+}
