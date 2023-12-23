@@ -26,7 +26,7 @@ __패키지 설치 과정__
 sudo apt install python3 - 이런 식으로 명령어를 실행
 -> _etc/apt/source.list_ 에 원격 repository에 있는 package를 받아옴
 -> package에 의존성을 확인하고 필요한 파일들을 설치함
-=> package에 대하 메타 정보들은 로컬 cache에 존재 - 이를 통해서 원격 repository에서 다운받아서 설치
+=> package에 대한 메타 정보들은 로컬 cache에 존재 - 이를 통해서 원격 repository에서 다운받아서 설치
 -> 모든 package가 존재하는 것은 아님
 @ 단, dpkg와 rpm은 그런 방식이 아니라 로컬에서 가지고 있는 패키지를 설치,삭제 하는 것임
 # sudo
@@ -35,7 +35,7 @@ Super User DO / Substitute User DO의 약자
 
 @ etc/sudoers파일에 지정된 사용자만 sudo명령어를 사용 가능
 
-@ su 명령어는 유저를 바꾸는 것임
+@ su 명령어는 유저를 바꾸는 것임  -> su - 는 root로 계정을 변환함
 
 __#쓰는 이유__
 root는 시스템의 모든 권한을 가지고 있음
@@ -55,6 +55,7 @@ Debian 계열 패키지 관리의 기본이 되는 소프트웨어
 @가장 저레벨의 패키지 관리 소프트웨어
 -> ==의존성 문제를 해결 못함== -> 그냥 패키지를 설치, 삭제만 함
 => 이러한 문제로 apt, apt-get, aptitude 등을 사용해서 의존성 문제를 해결하는 것임
+-> ==local에서 가지고 있는 패키지==만 설치,삭제가 가능
 # APT
 APT = Advanced Package Tool
 -> ==Dedian== 계열의 LINUX에서 사용되는 패키지 관리 시스템 (사용자 친화적 - 대화형)
@@ -65,10 +66,11 @@ APT = Advanced Package Tool
 
 @ apt가 apt-get보다 상위 레벨의 시스템임 - apt가 보다 사용자 친화적임( apt-get이 먼저 나옴 )
 => apt가 사용자 친화적인 만큼 사용자에게 물어보는 게 많음
+-> apt-get, apt-cache가 apt보다 먼저 나옴
 
 @ apt-get과 apt-cache에서 필요한 부분들을 합쳐서 apt를 만듦
 __apt-get이 low-level과 script 작성 측에서는 더 많은 옵션을 줄 수 있음__
-=> ==script 작성에서는 apt-get, apt-cache를 쓰는 게 더 좋음== ( 설치 과정에서 문제나 메세지가 나타날 수 있는데 apt-get의 경우에는 -y옵션으로 자동적으로 넘길 수 있음, 근데 apt는 그게 안됨 )
+=> ==script 작성에서는 apt-get, apt-cache를 쓰는 게 더 좋음== ( 설치 과정에서 문제나 메세지가 나타날 수 있는데 apt-get의 경우에는 옵션을 통해서 처리하기가 편함 )
 
 @apt를 실행하기 위해서는 sudo 권한을 가져야함 - package 설치 관련해서 권한들이 필요함
 
